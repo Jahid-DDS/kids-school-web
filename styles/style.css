@@ -131,6 +131,123 @@ margin:0 auto;
    height:500px;
  }
 
+ /*standard curriculum start here*/
+ h2.heading{
+   text-align:center;
+   font-size:46px;
+   font-weight:bold;
+   padding-bottom:40px;
+ }
+
+ .bg-image{
+   background-image:url('../assets/bg.png');
+   background-size:cover;
+   
+   
+ }
+
+  .card-container{
+    display:flex;
+     justify-content:center;
+     align-items:center;
+     gap:25px;
+     padding-bottom:80px;
+  }
+ 
+ .cards{
+  width:320px;
+  height:450px;
+  background: linear-gradient(to bottom, #DEF5FF, #FFFFFF );
+  padding:10px;
+  border-radius:20px;
+  border:2px solid #DEF5FF;
+  
+  
+ }
+
+  
+
+ .cards1{
+  width:320px;
+  height:450px;
+  background: linear-gradient(to bottom,  #FFF4DC, #FFFFFF );
+  padding:10px;
+  border-radius:20px;
+  border:2px solid #FFF4DC;
+  
+  
+ }
+
+ 
+ .cards2{
+  width:320px;
+  height:450px;
+  background: linear-gradient(to bottom,  #F2E8FF, #FFFFFF );
+  padding:10px;
+  border-radius:20px;
+  border:2px solid #F2E8FF;
+  
+  
+ }
+
+ .card{
+  display:block;
+  margin:auto;
+  padding:20px;
+ }
+
+ .card-title{
+  font-size:24px;
+  font-weight:bold;
+  text-align:center;
+   
+
+ }
+
+ .card-description{
+  font-size:1rem;
+  font-weight:400px;
+  text-align:center;
+  color:#808080;
+   
+  line-height:28px;
+
+ }
+ 
+ .read-more{
+  color:#01ACFD;
+  text-align:center;
+ }
+
+ 
+ .read-more1{
+  color:#F0AA00;
+  text-align:center;
+ }
+ 
+ .read-more2{
+  color:#8700FF;
+  text-align:center;
+ }
+
+  /*greather than and large than here*/
+  .icon-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding-bottom: 60px;
+  }
+  .largr-icon{
+    width:50px;
+    
+  }
+
+ 
+
+ 
+
+
  /*responsive design for mobile divice*/
 
  @media screen and (max-width:768px){
@@ -148,13 +265,17 @@ margin:0 auto;
       display:block;
       margin-right:10px;
      }
-     .bannar-container{
+     .bannar-container,.card-container{
       flex-direction:column-reverse;
       text-align:center;
      }
      .bannar-img{
       width:300px;
       height:400px;
+     }
+
+     .icon-pic{
+       display: none;
      }
  }
 
