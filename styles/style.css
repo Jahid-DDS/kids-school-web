@@ -1,4 +1,8 @@
- 
+ *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+ }
  
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
@@ -242,8 +246,188 @@ margin:0 auto;
     width:50px;
     
   }
+/*footer start here*/
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:1210px;
+  height:400px;
+   color:white;
+  background-color:#01ACFD ;
+   
+}
+.footer-container{
+  padding: 0px 140px;
+}
+
+.bag-icon{
+  display: flex;
+  justify-content:start;
+  gap:15px;
+  
+
+} 
+  .color-white a{
+    color:#FFFFFF;
+    font-size: 1.2rem;
+  }
+
+  .school{
+    padding:10px;
+  }
+
+/*card style start  here*/
+.cards-container2{
+  
+  width:400px;
+  padding-bottom:50px; 
+  display: flex;
+  gap:10px;
+   
+}
 
  
+ 
+ 
+ 
+.grid-container {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:20px;
+
+   
+}
+
+.card-content-2{
+   width:540px;
+   height:630px;
+    background: white;
+   border-radius:18px;
+   margin-right: 15px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+   
+}
+
+.story1{
+  width:440px;
+  height:337px;
+  border-radius: 18px 18px 0px 0px;
+}
+
+.title {
+  padding-bottom:80px;
+font-weight:700px;
+font-size:2.8rem;
+text-align: center;
+}
+
+
+.challenge{
+  width:300px;
+  height:47px;
+  background-color: #3CD8E8;
+  padding:10px;
+  color:#FFFFFF;
+  font-weight: normal;
+  border-radius:25px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left:38px;
+  top:-24px;
+}
+
+.card-title2{
+  font-weight:700px;
+  font-size:1.5rem;
+  line-height: 38px;
+ 
+  text-align: center;
+}
+
+.card-description2{
+  color:#666666;
+  text-align: center;
+
+}
+
+
+
+
+.card3-content{
+  width:290px;
+  height:301px;
+  border-radius:18px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+background-color: #FFFFFF;
+line-height: 28px;
+ text-align: center;
+}
+
+
+.challenge2{
+  width:250px;
+  height:37px;
+  background-color: #95B226;
+    text-align: center;
+    align-items: center;
+  color:#FFFFFF;
+  font-weight: normal;
+  border-radius:25px;
+   font-size: 1rem;
+    
+   
+  position: relative;
+  left:38px;
+  top:-22px;
+}
+
+.challenge-all{
+width:250px;
+  height:37px;
+  
+    text-align: center;
+    align-items: center;
+  color:#FFFFFF;
+  font-weight: normal;
+  border-radius:25px;
+   font-size: 1rem;
+    
+   
+  position: relative;
+  left:38px;
+  top:-22px;
+}
+
+.bg-color3{
+  background-color: #5D58EF;
+}
+
+.bg-color4{
+  background-color: #95B226;;
+}
+.photo{
+  border-radius: 18px 18px 0 0;
+}
+
+.btn2{
+  margin-bottom:40px;
+  
+}
+
+.btn-conteiner {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+ 
+/*card style end   here*/
+  
+  
+
 
  
 
@@ -276,6 +460,32 @@ margin:0 auto;
 
      .icon-pic{
        display: none;
+     }
+ .footer-container{
+       width:100%;
+      flex-direction: column;
+      padding:10px;
+      text-align: center;
+      max-width: 1200px;
+       
+     }
+
+     .bag-icon{
+      font-size:15px;
+      flex-direction: column;
+
+     }
+
+     .card-content-2{
+      display:none;
+     }
+ 
+     .grid-container{
+      display: grid;
+      grid-template-columns:1fr;
+      gap: 20px;
+      margin:0 auto;
+       
      }
  }
 
